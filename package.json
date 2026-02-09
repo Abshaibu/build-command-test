@@ -4,7 +4,7 @@
   "description": "A Next.js application",
   "scripts": {
     "dev": "next dev",
-    "build": "cross-env NODE_ENV=production yarn install --frozen-lockfile",
+    "build": "NODE_ENV=production yarn install --frozen-lockfile",
     "start": "next start",
     "lint": "next lint"
   },
